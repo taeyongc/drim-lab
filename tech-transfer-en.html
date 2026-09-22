@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Technology Transfer | DRiM Lab</title>
+<link rel="icon" type="image/png" href="drim-lab-favicon.png">
+<style>
+:root{--navy:#0b2941;--navy2:#061a2a;--teal:#08a6ad;--red:#e83b3b;--ink:#173247;--muted:#657888;--paper:#f5f8fa;--white:#fff;--line:#dce6eb;--shadow:0 18px 52px rgba(6,26,42,.11)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;line-height:1.65}
+a{color:inherit}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav{height:74px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+.logo{display:flex;align-items:center;text-decoration:none}.logo img{width:158px;height:52px;object-fit:contain;object-position:left center}
+.links{display:flex;gap:20px;font-size:14px;font-weight:800;flex-wrap:wrap}.links a{text-decoration:none}.links a.on{color:var(--teal)}
+.page-hero{background:linear-gradient(135deg,var(--navy),#0e3c57);color:white;padding:66px 0 58px}
+.page-hero small{font-weight:900;letter-spacing:.16em;text-transform:uppercase;color:#67dce0}
+.page-hero h1{font-size:clamp(32px,4.6vw,50px);letter-spacing:-.045em;line-height:1.15;margin:10px 0 14px}
+.page-hero p{color:#c6d6df;max-width:760px;margin:0;font-size:17px}
+.stats{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.stat{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);padding:14px 22px;border-radius:6px}
+.stat b{display:block;font-size:26px;letter-spacing:-.03em}.stat span{font-size:13px;color:#a9c4d2}
+section{padding:64px 0}
+h2.sec{font-size:clamp(24px,3.4vw,34px);letter-spacing:-.04em;margin:0 0 8px}
+p.sec-sub{color:var(--muted);margin:0 0 26px}
+.tbl-wrap{overflow-x:auto;background:white;border:1px solid var(--line);box-shadow:0 6px 24px rgba(6,26,42,.05)}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:640px}
+th{background:var(--navy);color:white;padding:11px 12px;text-align:left;font-size:13px;white-space:nowrap}
+td{border-bottom:1px solid var(--line);padding:9px 12px;vertical-align:top}
+tbody tr:nth-child(even){background:#f8fbfc}tbody tr:hover{background:#eef7f8}
+td.num,th.num{text-align:center;white-space:nowrap}
+.badge{display:inline-block;font-size:11px;font-weight:900;padding:2px 9px;border-radius:999px;background:#e5f5f6;color:var(--teal);white-space:nowrap}
+.badge.red{background:#fdecec;color:var(--red)}.badge.navy{background:#e8eef4;color:var(--navy)}
+.card{background:white;border:1px solid var(--line);padding:30px 32px;margin-bottom:18px;box-shadow:0 6px 24px rgba(6,26,42,.05)}
+.card .tag{color:var(--teal);font-size:12px;font-weight:900;letter-spacing:.1em}
+.card h3{font-size:22px;letter-spacing:-.03em;margin:8px 0 14px}
+.card .meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:0 0 18px}
+.card .meta div{background:var(--paper);padding:11px 14px}
+.card .meta strong{display:block;font-size:12px;color:var(--navy)}
+.card .meta span{font-size:14px;color:var(--muted)}
+.card h4{font-size:14px;color:var(--teal);margin:18px 0 6px;letter-spacing:.06em;text-transform:uppercase}
+.card p{color:var(--muted);font-size:15px;margin:0}
+footer{background:#03131f;color:white;padding:38px 0;margin-top:20px}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:25px}
+.foot img{width:145px;height:55px;object-fit:contain;background:white;border-radius:4px}
+.foot small{color:#8fa4b4;text-align:right}
+.back{display:inline-flex;align-items:center;gap:6px;margin-top:26px;color:white;text-decoration:none;font-weight:900;border:1px solid rgba(255,255,255,.5);padding:10px 18px;border-radius:4px}
+@media(max-width:700px){nav{height:auto;padding:12px 0;flex-wrap:wrap}.logo img{width:125px}section{padding:48px 0}.card{padding:22px}.foot{flex-direction:column;align-items:flex-start}.foot small{text-align:left}}
+
+.langlink{font-size:13px;font-weight:900;border:1px solid var(--line);padding:6px 14px;border-radius:999px;text-decoration:none;color:var(--muted);white-space:nowrap}
+.langlink:hover{color:var(--teal);border-color:var(--teal)}
+</style>
+</head>
+<body>
+<header><nav class="wrap"><a class="logo" href="index.html"><img src="drim-lab-logo.png" alt="DRiM Lab"></a><div class="links"><a href="index.html">Home</a><a href="publications-en.html">Publications</a><a href="patents-en.html">Patents & IP</a><a href="tech-transfer-en.html" class="on">Tech Transfer</a><a href="awards-en.html">Awards</a></div><a class="langlink" href="tech-transfer.html">한국어</a></nav></header>
+<div class="page-hero"><div class="wrap"><small>Technology Transfer</small><h1>Ten Highlights of Technology Transfer</h1><p>Our core technologies have been licensed to industry and operate in real products and workplaces — from parallel and dual-arm robots to robot hands, grippers, and humanoid actuation systems, completing the research-to-commercialization cycle.</p>
+<div class="stats"><div class="stat"><b>10</b><span>Major transfers</span></div><div class="stat"><b>KRW 0.97B</b><span>Cumulative contracts</span></div><div class="stat"><b>9</b><span>Licensee companies</span></div><div class="stat"><b>2016–2026</b><span>Transfer period</span></div></div>
+</div></div>
+<main><section><div class="wrap"><article class="card"><span class="tag">TECH TRANSFER 01</span><h3>High-Speed Parallel Robot Design (0.5 kg Class)</h3>
+<div class="meta">
+<div><strong>Licensee</strong><span>Robostar Co., Ltd.</span></div>
+<div><strong>Contract date</strong><span>2016.12.23</span></div>
+<div><strong>Amount</strong><span>KRW 55,000,000</span></div>
+<div><strong>Period</strong><span>2017.01.01 – 2026.12.31</span></div>
+<div><strong>Type</strong><span>Know-how</span></div>
+</div>
+<h4>Technology</h4><p>Optimal mechanism design and structural analysis methodology for a parallel robot capable of high-speed pick-and-place operation with a 0.5 kg payload. The package systematizes design know-how including motor placement, link length, and workspace optimization, suited to high-speed sorting and assembly lines for electronics, pharmaceuticals, and food.</p>
+<h4>Commercialization</h4><p>Transferred to Robostar, a leading Korean industrial robot manufacturer, and applied to high-speed parallel robots for semiconductor and electronics assembly lines. This was the group’s first technology transfer contract and laid the foundation for a continuing series of commercialization successes.</p>
+</article><article class="card"><span class="tag">TECH TRANSFER 02</span><h3>Dual-Arm Robot Design and Fabrication (5 kg Class)</h3>
+<div class="meta">
+<div><strong>Licensee</strong><span>Robostar Co., Ltd.</span></div>
+<div><strong>Contract date</strong><span>2017.02.08</span></div>
+<div><strong>Amount</strong><span>KRW 110,000,000</span></div>
+<div><strong>Period</strong><span>2017.01.01 – 2026.12.31</span></div>
+<div><strong>Type</strong><span>IP + Know-how</span></div>
+</div>
+<h4>Technology</h4><p>Design and fabrication technology for a 5 kg-class dual-arm robot performing bimanual assembly, grasping, and transfer tasks. Includes DOF design of each arm, inter-arm collision avoidance and cooperative motion planning, standardized end-effector interfaces, and lightweight structural design.</p>
+<h4>Commercialization</h4><p>Directly used in Robostar’s commercial dual-arm robot products, applied to automotive parts assembly, electronics inspection, and shipyard parts handling. Patents and know-how were transferred together under a long-term license through 2026.</p>
+</article><article class="card"><span class="tag">TECH TRANSFER 03</span><h3>Gravity-Compensated Manipulator Design</h3>
+<div class="meta">
+<div><strong>Licensee</strong><span>SB Robotech Co., Ltd.</span></div>
+<div><strong>Contract date</strong><span>2017.12.22</span></div>
+<div><strong>Amount</strong><span>KRW 55,000,000</span></div>
+<div><strong>Period</strong><span>2017.12.28 – 2022.12.27</span></div>
+<div><strong>Type</strong><span>IP</span></div>
+</div>
+<h4>Technology</h4><p>Manipulator design technology that passively compensates gravity torque using springs, counterweights, and mechanical linkages, reducing motor capacity and power consumption while improving motion precision — particularly effective for collaborative and service robot arms.</p>
+<h4>Commercialization</h4><p>Transferred to SB Robotech and applied to its collaborative robot arm product line, realizing cost savings from reduced motor capacity and improved battery efficiency, strengthening the SME’s in-house robot development capability.</p>
+</article><article class="card"><span class="tag">TECH TRANSFER 04</span><h3>Dual-Arm Robot Operation and Motion Planning</h3>
+<div class="meta">
+<div><strong>Licensee</strong><span>FRT Co., Ltd.</span></div>
+<div><strong>Contract date</strong><span>2018.09.30</span></div>
+<div><strong>Amount</strong><span>KRW 160,000,000</span></div>
+<div><strong>Period</strong><span>2018.08.01 – 2028.07.31</span></div>
+<div><strong>Type</strong><span>Know-how</span></div>
+</div>
+<h4>Technology</h4><p>Software and algorithm technology for autonomous task planning and execution by dual-arm robots: real-time collision-free motion planning, automatic task scheduling, sensor-feedback force/position control, and user teaching interfaces.</p>
+<h4>Commercialization</h4><p>Transferred to FRT for customized dual-arm robot solutions in manufacturing. At KRW 160M this was among the group’s largest contracts — a case where software and algorithms alone earned high commercial value, with a long-term partnership through 2028.</p>
+</article><article class="card"><span class="tag">TECH TRANSFER 05</span><h3>Absolute Positioning Accuracy Calibration for Robot Manipulators</h3>
+<div class="meta">
+<div><strong>Licensee</strong><span>SmartMotion Co., Ltd.</span></div>
+<div><strong>Contract date</strong><span>2018.12.11</span></div>
+<div><strong>Amount</strong><span>KRW 55,000,000</span></div>
+<div><strong>Period</strong><span>2018.12.01 – 2023.11.30</span></div>
+<div><strong>Type</strong><span>Know-how</span></div>
+</div>
+<h4>Technology</h4><p>A methodology that identifies kinematic parameter errors from measured end-effector positions and applies them to a calibration model, improving absolute accuracy in real time — essential for CAD-to-part processes, offline programming, and high-precision laser machining.</p>
+<h4>Commercialization</h4><p>Transferred to SmartMotion and embedded in high-precision laser machining and inspection systems, reducing absolute position error by tens of percent and contributing to quality competitiveness in aerospace, defense, and semiconductor manufacturing.</p>
+</article><article class="card"><span class="tag">TECH TRANSFER 06</span><h3>Dual-Arm Manipulator for Rescue Robots</h3>
+<div class="meta">
+<div><strong>Licensee</strong><span>Robostar Co., Ltd.</span></div>
+<div><strong>Contract date</strong><span>2020.02.14</span></div>
+<div><strong>Amount</strong><span>KRW 50,985,972</span></div>
+<div><strong>Period</strong><span>2020.02.14 – 2025.12.31</span></div>
+<div><strong>Type</strong><span>IP</span></div>
+</div>
+<h4>Technology</h4><p>Dual-arm manipulator technology for rescue robots operating in disaster, fire, and accident sites — robust structural design against shock and vibration plus teleoperation interfaces for debris removal, door opening, valve operation, and casualty transport. Developed through an Agency for Defense Development program with dual-use character.</p>
+<h4>Commercialization</h4><p>Defense R&D results were transferred to Robostar, opening a path into the special-purpose robot market and extending defense-proven robustness to civilian disaster-response robotics.</p>
+</article><article class="card"><span class="tag">TECH TRANSFER 07</span><h3>Four-Finger Robot Hand (Industrial)</h3>
+<div class="meta">
+<div><strong>Licensee</strong><span>Youngchang Robotech Co., Ltd.</span></div>
+<div><strong>Contract date</strong><span>2021.07.05</span></div>
+<div><strong>Amount</strong><span>KRW 67,000,000</span></div>
+<div><strong>Period</strong><span>2021.06.16 – 2031.06.15</span></div>
+<div><strong>Type</strong><span>IP + Know-how</span></div>
+</div>
+<h4>Technology</h4><p>A multi-fingered robot hand inspired by the human four-finger structure. Multi-joint fingers with thumb opposition enable stable grasping of objects of diverse shapes and sizes — irregular parts, produce, and food — with a single hand.</p>
+<h4>Commercialization</h4><p>Transferred to Youngchang Robotech and applied to industrial assembly automation lines, reducing setup time versus dedicated grippers and improving production flexibility under a 10-year license through 2031.</p>
+</article><article class="card"><span class="tag">TECH TRANSFER 08</span><h3>Four-Finger Robot Hand (Service Robotics)</h3>
+<div class="meta">
+<div><strong>Licensee</strong><span>Aidin Robotics Co., Ltd.</span></div>
+<div><strong>Contract date</strong><span>2022.06.24</span></div>
+<div><strong>Amount</strong><span>KRW 55,000,000</span></div>
+<div><strong>Period</strong><span>2022.07.01 – 2027.06.30</span></div>
+<div><strong>Type</strong><span>IP + Know-how</span></div>
+</div>
+<h4>Technology</h4><p>The same four-finger robot hand core technology optimized for service robotics: safe grasp-force control, human-friendly exterior design, and low-noise actuation.</p>
+<h4>Commercialization</h4><p>Transferred to Aidin Robotics for hand modules in logistics, delivery, and medical-assist robots. The same core technology was licensed into both industrial and service domains, demonstrating its versatility and market extensibility.</p>
+</article><article class="card"><span class="tag">TECH TRANSFER 09</span><h3>Driver System for Humanoid Actuation Modules</h3>
+<div class="meta">
+<div><strong>Licensee</strong><span>Samjung Automation Co., Ltd.</span></div>
+<div><strong>Contract date</strong><span>2025.04.28</span></div>
+<div><strong>Amount</strong><span>KRW 220,000,000</span></div>
+<div><strong>Period</strong><span>2025.03.27 – 2030.03.27</span></div>
+<div><strong>Type</strong><span>Software</span></div>
+</div>
+<h4>Technology</h4><p>A real-time, high-speed, high-precision driver software system for humanoid joint actuation modules: real-time torque/position control, EtherCAT communication integration, and safety monitoring with fault-handling algorithms — the culmination of long-accumulated joint-control expertise.</p>
+<h4>Commercialization</h4><p>Transferred to Samjung Automation for next-generation humanoid robot actuation systems. At KRW 220M, the largest single contract in the group’s history, reflecting the technology’s value in the fast-growing humanoid market.</p>
+</article><article class="card"><span class="tag">TECH TRANSFER 10</span><h3>Universal Vacuum-Suction and Vibration Gripper</h3>
+<div class="meta">
+<div><strong>Licensee</strong><span>PIE Robotics Co., Ltd.</span></div>
+<div><strong>Contract date</strong><span>2026.06.08</span></div>
+<div><strong>Amount</strong><span>KRW 140,800,000</span></div>
+<div><strong>Period</strong><span>2026.06.08 – 2032.06.07</span></div>
+<div><strong>Type</strong><span>IP</span></div>
+</div>
+<h4>Technology</h4><p>A universal gripper integrating vacuum suction and vibration-assisted grasping in one unit. Vibration assists objects that suction alone cannot handle — porous or irregular surfaces — enabling stable grasping of heterogeneous items such as produce, food, and small parts without tool changes.</p>
+<h4>Commercialization</h4><p>Transferred to PIE Robotics for agricultural and logistics gripper products under a six-year exclusive license through 2032. A flagship example of the complete research → transfer → commercialization cycle, born from the national agricultural robotics program (2022–2026).</p>
+</article></div></section></main>
+<footer><div class="wrap foot"><img src="drim-lab-logo.png" alt="DRiM Lab"><small>Dexterous Robotics and Intelligent Manipulation Laboratory<br>Korea Institute of Machinery and Materials · UST</small></div></footer>
+</body></html>

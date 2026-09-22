@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Awards | DRiM Lab</title>
+<link rel="icon" type="image/png" href="drim-lab-favicon.png">
+<style>
+:root{--navy:#0b2941;--navy2:#061a2a;--teal:#08a6ad;--red:#e83b3b;--ink:#173247;--muted:#657888;--paper:#f5f8fa;--white:#fff;--line:#dce6eb;--shadow:0 18px 52px rgba(6,26,42,.11)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;line-height:1.65}
+a{color:inherit}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav{height:74px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+.logo{display:flex;align-items:center;text-decoration:none}.logo img{width:158px;height:52px;object-fit:contain;object-position:left center}
+.links{display:flex;gap:20px;font-size:14px;font-weight:800;flex-wrap:wrap}.links a{text-decoration:none}.links a.on{color:var(--teal)}
+.page-hero{background:linear-gradient(135deg,var(--navy),#0e3c57);color:white;padding:66px 0 58px}
+.page-hero small{font-weight:900;letter-spacing:.16em;text-transform:uppercase;color:#67dce0}
+.page-hero h1{font-size:clamp(32px,4.6vw,50px);letter-spacing:-.045em;line-height:1.15;margin:10px 0 14px}
+.page-hero p{color:#c6d6df;max-width:760px;margin:0;font-size:17px}
+.stats{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.stat{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);padding:14px 22px;border-radius:6px}
+.stat b{display:block;font-size:26px;letter-spacing:-.03em}.stat span{font-size:13px;color:#a9c4d2}
+section{padding:64px 0}
+h2.sec{font-size:clamp(24px,3.4vw,34px);letter-spacing:-.04em;margin:0 0 8px}
+p.sec-sub{color:var(--muted);margin:0 0 26px}
+.tbl-wrap{overflow-x:auto;background:white;border:1px solid var(--line);box-shadow:0 6px 24px rgba(6,26,42,.05)}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:640px}
+th{background:var(--navy);color:white;padding:11px 12px;text-align:left;font-size:13px;white-space:nowrap}
+td{border-bottom:1px solid var(--line);padding:9px 12px;vertical-align:top}
+tbody tr:nth-child(even){background:#f8fbfc}tbody tr:hover{background:#eef7f8}
+td.num,th.num{text-align:center;white-space:nowrap}
+.badge{display:inline-block;font-size:11px;font-weight:900;padding:2px 9px;border-radius:999px;background:#e5f5f6;color:var(--teal);white-space:nowrap}
+.badge.red{background:#fdecec;color:var(--red)}.badge.navy{background:#e8eef4;color:var(--navy)}
+.card{background:white;border:1px solid var(--line);padding:30px 32px;margin-bottom:18px;box-shadow:0 6px 24px rgba(6,26,42,.05)}
+.card .tag{color:var(--teal);font-size:12px;font-weight:900;letter-spacing:.1em}
+.card h3{font-size:22px;letter-spacing:-.03em;margin:8px 0 14px}
+.card .meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:0 0 18px}
+.card .meta div{background:var(--paper);padding:11px 14px}
+.card .meta strong{display:block;font-size:12px;color:var(--navy)}
+.card .meta span{font-size:14px;color:var(--muted)}
+.card h4{font-size:14px;color:var(--teal);margin:18px 0 6px;letter-spacing:.06em;text-transform:uppercase}
+.card p{color:var(--muted);font-size:15px;margin:0}
+footer{background:#03131f;color:white;padding:38px 0;margin-top:20px}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:25px}
+.foot img{width:145px;height:55px;object-fit:contain;background:white;border-radius:4px}
+.foot small{color:#8fa4b4;text-align:right}
+.back{display:inline-flex;align-items:center;gap:6px;margin-top:26px;color:white;text-decoration:none;font-weight:900;border:1px solid rgba(255,255,255,.5);padding:10px 18px;border-radius:4px}
+@media(max-width:700px){nav{height:auto;padding:12px 0;flex-wrap:wrap}.logo img{width:125px}section{padding:48px 0}.card{padding:22px}.foot{flex-direction:column;align-items:flex-start}.foot small{text-align:left}}
+
+.langlink{font-size:13px;font-weight:900;border:1px solid var(--line);padding:6px 14px;border-radius:999px;text-decoration:none;color:var(--muted);white-space:nowrap}
+.langlink:hover{color:var(--teal);border-color:var(--teal)}
+</style>
+</head>
+<body>
+<header><nav class="wrap"><a class="logo" href="index.html"><img src="drim-lab-logo.png" alt="DRiM Lab"></a><div class="links"><a href="index.html">Home</a><a href="publications-en.html">Publications</a><a href="patents-en.html">Patents & IP</a><a href="tech-transfer-en.html">Tech Transfer</a><a href="awards-en.html" class="on">Awards</a></div><a class="langlink" href="awards.html">한국어</a></nav></header>
+<div class="page-hero"><div class="wrap"><small>Awards & Honors</small><h1>Awards & Honors</h1><p>Our research has been recognized with ministerial citations, Top 10 Mechanical Technologies of Korea awards, and selection among the National R&D Outstanding Achievements Top 100.</p>
+<div class="stats"><div class="stat"><b>12</b><span>Total awards</span></div><div class="stat"><b>2</b><span>Ministerial citations</span></div><div class="stat"><b>2</b><span>Top 10 Mechanical Tech</span></div><div class="stat"><b>1</b><span>National R&D Top 100</span></div></div>
+</div></div>
+<main><section><div class="wrap"><h2 class="sec">Awards & Honors</h2><p class="sec-sub">12 awards (most recent first)</p><div class="tbl-wrap"><table><thead><tr><th class="num">No</th><th class="num">Date</th><th class="num">Category</th><th>Award</th><th>Awarding Body</th><th class="num">Team/Individual</th><th>Notes</th></tr></thead><tbody><tr><td class="num">1</td><td class="num">2025-12-23</td><td class="num"><span class="badge navy">External</span></td><td>2025 National R&amp;D Outstanding Achievements Top 100</td><td>Ministry of Science and ICT</td><td class="num">Team</td><td>Morphing-wheel robot wheelchair capable of traversing flat ground, slopes, bumps, and stairs</td></tr><tr><td class="num">2</td><td class="num">2025-12-17</td><td class="num"><span class="badge ">KIMM President</span></td><td>KIMM PR Award (Encouragement Prize)</td><td>Korea Institute of Machinery &amp; Materials</td><td class="num">Team</td><td>49th anniversary commendation — advanced robotics for improving human life</td></tr><tr><td class="num">3</td><td class="num">2025-11-13</td><td class="num"><span class="badge navy">External</span></td><td>2025 Top 10 Mechanical Technologies of Korea</td><td>Korea Federation of Machinery Organizations</td><td class="num">Team</td><td>World-first morphing-wheel robot wheelchair for stairs and obstacles</td></tr><tr><td class="num">4</td><td class="num">2025-11-03</td><td class="num"><span class="badge red">Ministerial</span></td><td>Ministerial Citation — Outstanding Research Achievement of Government-Funded Institutes</td><td>Ministry of Science and ICT</td><td class="num">Individual</td><td>2025 outstanding research achievement</td></tr><tr><td class="num">5</td><td class="num">2024-12-18</td><td class="num"><span class="badge ">KIMM President</span></td><td>KIMM PR Award (Grand Prize)</td><td>Korea Institute of Machinery &amp; Materials</td><td class="num">Team</td><td></td></tr><tr><td class="num">6</td><td class="num">2022-12-21</td><td class="num"><span class="badge ">KIMM President</span></td><td>Special Contribution Award</td><td>Korea Institute of Machinery &amp; Materials</td><td class="num">Team</td><td>46th anniversary commendation (AI Robot Research Division)</td></tr><tr><td class="num">7</td><td class="num">2022-12-21</td><td class="num"><span class="badge ">KIMM President</span></td><td>Special Contribution Award</td><td>Korea Institute of Machinery &amp; Materials</td><td class="num">Team</td><td>46th anniversary commendation (exhibition hall contribution)</td></tr><tr><td class="num">8</td><td class="num">2021-12-22</td><td class="num"><span class="badge ">KIMM President</span></td><td>Institutional Development Award</td><td>Korea Institute of Machinery &amp; Materials</td><td class="num">Individual</td><td>Foundation anniversary commendation</td></tr><tr><td class="num">9</td><td class="num">2021-12-22</td><td class="num"><span class="badge ">KIMM President</span></td><td>Special Contribution Award</td><td>Korea Institute of Machinery &amp; Materials</td><td class="num">Team</td><td></td></tr><tr><td class="num">10</td><td class="num">2019-12-30</td><td class="num"><span class="badge ">KIMM President</span></td><td>Outstanding Research Award (Major Programs)</td><td>Korea Institute of Machinery &amp; Materials</td><td class="num">Team</td><td></td></tr><tr><td class="num">11</td><td class="num">2019-05-27</td><td class="num"><span class="badge red">Ministerial</span></td><td>Ministerial Citation — 54th Invention Day</td><td>Ministry of Trade, Industry and Energy</td><td class="num">Individual</td><td>54th Invention Day commendation</td></tr><tr><td class="num">12</td><td class="num">2017-11-14</td><td class="num"><span class="badge navy">External</span></td><td>2017 Top 10 Mechanical Technologies of Korea</td><td>Korea Federation of Machinery Organizations</td><td class="num">Team</td><td>PI: Jinho Kyung / Members: Chanhun Park, Hyunmin Do, Dongil Park, Taeyong Choi</td></tr></tbody></table></div></div></section></main>
+<footer><div class="wrap foot"><img src="drim-lab-logo.png" alt="DRiM Lab"><small>Dexterous Robotics and Intelligent Manipulation Laboratory<br>Korea Institute of Machinery and Materials · UST</small></div></footer>
+</body></html>
